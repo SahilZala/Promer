@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Promer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="index.html" class="logo">Promer<span class="logo-dot">.</span></a>
+  <ul class="nav-links" id="nav-links">
+    <li class="close-btn" id="close-btn" role="button" aria-label="Close menu">&times;</li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.html">All Products</a></li>
+    <li><a href="products.html?type=tshirt">T-Shirts</a></li>
+    <li><a href="products.html?type=socks">Socks</a></li>
+    <li><a href="products.html?trending=true">Trending</a></li>
+    <li><a href="contact.html" class="active">Contact Us</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" role="button" aria-label="Open menu">&#9776;</div>
+</nav>
+<div class="menu-overlay" id="overlay"></div>
+
+<header class="page-header">
+  <p class="eyebrow">GET IN TOUCH</p>
+  <h1>Contact Us</h1>
+  <p class="page-header-sub">Questions about an order, a fit, or a wholesale enquiry? Send it our way.</p>
+</header>
+
+<div class="rib-divider" aria-hidden="true"></div>
+
+<section class="contact-layout">
+  <form id="contact-form" class="contact-form" novalidate>
+    <div class="form-row">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required>
+    </div>
+    <div class="form-row">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@email.com" required>
+    </div>
+    <div class="form-row">
+      <label for="subject">Subject</label>
+      <select id="subject" name="subject">
+        <option value="order">Order support</option>
+        <option value="sizing">Sizing help</option>
+        <option value="wholesale">Wholesale enquiry</option>
+        <option value="other">Something else</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Tell us what's up" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send Message</button>
+    <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+  </form>
+
+  <div class="contact-info">
+    <div class="info-block">
+      <h4>Email</h4>
+      <p>hello@promer.example</p>
+    </div>
+    <div class="info-block">
+      <h4>Phone</h4>
+      <p>+91 98765 43210</p>
+    </div>
+    <div class="info-block">
+      <h4>Studio</h4>
+      <p>14 Linking Road, Bandra West<br>Mumbai, Maharashtra 400050</p>
+    </div>
+    <div class="info-block">
+      <h4>Hours</h4>
+      <p>Mon&ndash;Sat, 10am&ndash;7pm IST<br>Support replies within 1 business day</p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <p class="logo footer-logo">Promer<span class="logo-dot">.</span></p>
+      <p>Tees and socks built for the every day, from a small team in Mumbai.</p>
+    </div>
+    <form class="newsletter" onsubmit="event.preventDefault();">
+      <label for="newsletter-email">Get 10% off your first order</label>
+      <div class="newsletter-row">
+        <input id="newsletter-email" type="email" placeholder="you@email.com" required>
+        <button type="submit" class="btn btn-primary">Join</button>
+      </div>
+    </form>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Promer. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="products.html">All Products</a>
+      <a href="products.html?type=tshirt">T-Shirts</a>
+      <a href="products.html?type=socks">Socks</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/common.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>

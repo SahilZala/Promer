@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Details | Promer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="index.html" class="logo">Promer<span class="logo-dot">.</span></a>
+  <ul class="nav-links" id="nav-links">
+    <li class="close-btn" id="close-btn" role="button" aria-label="Close menu">&times;</li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.html">All Products</a></li>
+    <li><a href="products.html?type=tshirt">T-Shirts</a></li>
+    <li><a href="products.html?type=socks">Socks</a></li>
+    <li><a href="products.html?trending=true">Trending</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" role="button" aria-label="Open menu">&#9776;</div>
+</nav>
+<div class="menu-overlay" id="overlay"></div>
+
+<main id="product-detail" class="product-detail-page">
+  <p class="empty-state">Loading product&hellip;</p>
+</main>
+
+<div class="rib-divider" aria-hidden="true"></div>
+
+<div class="section-header">
+  <p class="eyebrow">YOU MIGHT ALSO LIKE</p>
+  <h2>Related Products</h2>
+</div>
+
+<div class="product-grid" id="related-grid"></div>
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <p class="logo footer-logo">Promer<span class="logo-dot">.</span></p>
+      <p>Tees and socks built for the every day, from a small team in Mumbai.</p>
+    </div>
+    <form class="newsletter" onsubmit="event.preventDefault();">
+      <label for="newsletter-email">Get 10% off your first order</label>
+      <div class="newsletter-row">
+        <input id="newsletter-email" type="email" placeholder="you@email.com" required>
+        <button type="submit" class="btn btn-primary">Join</button>
+      </div>
+    </form>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Promer. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="products.html">All Products</a>
+      <a href="products.html?type=tshirt">T-Shirts</a>
+      <a href="products.html?type=socks">Socks</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script src="js/common.js"></script>
+<script src="js/products-data.js"></script>
+<script src="js/product-detail.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Promer | Tees & Socks, Done Right</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="index.html" class="logo">Promer<span class="logo-dot">.</span></a>
+  <ul class="nav-links" id="nav-links">
+    <li class="close-btn" id="close-btn" role="button" aria-label="Close menu">&times;</li>
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="products.html">All Products</a></li>
+    <li><a href="products.html?type=tshirt">T-Shirts</a></li>
+    <li><a href="products.html?type=socks">Socks</a></li>
+    <li><a href="products.html?trending=true">Trending</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" role="button" aria-label="Open menu">&#9776;</div>
+</nav>
+<div class="menu-overlay" id="overlay"></div>
+
+<header class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">NEW WEEKLY DROPS</p>
+    <h1>Basics that<br>never go<br><span class="hero-underline">basic.</span></h1>
+    <p class="hero-sub">Heavyweight cotton tees and socks engineered to survive laundry day after laundry day. No pilling, no fading, no drama.</p>
+    <div class="hero-actions">
+      <a href="products.html?type=tshirt" class="btn btn-primary">Shop Tees</a>
+      <a href="products.html?type=socks" class="btn btn-outline">Shop Socks</a>
+    </div>
+  </div>
+
+  <div class="carousel-wrapper">
+    <div class="carousel" id="carousel">
+      <div class="slide"><img src="https://m.media-amazon.com/images/X/bxt1/M/9bxt1x04iDLlLgC._QL75_FMwebp_SX_WIDTH_.png" alt="Promer product, look one"></div>
+      <div class="slide"><img src="https://m.media-amazon.com/images/X/bxt1/M/9bxt1x04iDLlLgC._QL75_FMwebp_SX_WIDTH_.png" alt="Promer product, look two"></div>
+      <div class="slide"><img src="https://m.media-amazon.com/images/X/bxt1/M/9bxt1x04iDLlLgC._QL75_FMwebp_SX_WIDTH_.png" alt="Promer product, look three"></div>
+    </div>
+    <div class="indicators" id="indicators">
+      <span class="dot active" data-index="0"></span>
+      <span class="dot" data-index="1"></span>
+      <span class="dot" data-index="2"></span>
+    </div>
+  </div>
+</header>
+
+<div class="rib-divider" aria-hidden="true"></div>
+
+<div class="marquee">
+  <div class="marquee-track">
+    <span>FREE SHIPPING OVER ₹999</span><span>·</span>
+    <span>SOCK-MATCH GUARANTEE</span><span>·</span>
+    <span>7-DAY EASY RETURNS</span><span>·</span>
+    <span>FREE SHIPPING OVER ₹999</span><span>·</span>
+    <span>SOCK-MATCH GUARANTEE</span><span>·</span>
+    <span>7-DAY EASY RETURNS</span><span>·</span>
+  </div>
+</div>
+
+<section class="category-split">
+  <a class="category-tile" href="products.html?type=tshirt">
+    <img src="https://m.media-amazon.com/images/X/bxt1/M/hbxt1xfkBMQVKpG._SL1920_QL80_FMwebp_.jpg" alt="Promer t-shirts">
+    <div class="category-tag">01</div>
+    <div class="category-copy">
+      <h3>T-Shirts</h3>
+      <p>Crew, drop-shoulder & graphic</p>
+    </div>
+  </a>
+  <a class="category-tile" href="products.html?type=socks">
+    <img src="https://m.media-amazon.com/images/X/bxt1/M/9bxt1x04iDLlLgC._QL75_FMwebp_SX_WIDTH_.png" alt="Promer socks">
+    <div class="category-tag">02</div>
+    <div class="category-copy">
+      <h3>Socks</h3>
+      <p>Crew, ankle & terry</p>
+    </div>
+  </a>
+</section>
+
+<div class="section-header">
+  <p class="eyebrow">HAND-PICKED</p>
+  <h2>Our Top Picks</h2>
+  <p class="section-sub">The pieces our customers keep re-ordering.</p>
+</div>
+
+<div class="product-grid" id="featured-grid">
+  <p class="empty-state">Loading products&hellip;</p>
+</div>
+
+<div class="section-cta">
+  <a href="products.html" class="btn btn-outline">View All Products</a>
+</div>
+
+<div class="rib-divider" aria-hidden="true"></div>
+
+<section class="features-strip">
+  <div class="feature">
+    <span class="feature-icon">⬢</span>
+    <h4>Heavyweight Cotton</h4>
+    <p>240 GSM fabric that holds its shape wash after wash.</p>
+  </div>
+  <div class="feature">
+    <span class="feature-icon">⬡</span>
+    <h4>Sock-Match Guarantee</h4>
+    <p>Lose one, tell us, we send its pair. No questions asked.</p>
+  </div>
+  <div class="feature">
+    <span class="feature-icon">◆</span>
+    <h4>Fast Dispatch</h4>
+    <p>Orders leave our Mumbai warehouse within 24 hours.</p>
+  </div>
+  <div class="feature">
+    <span class="feature-icon">▲</span>
+    <h4>Easy Returns</h4>
+    <p>7 days to change your mind, full refund, no forms.</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <p class="logo footer-logo">Promer<span class="logo-dot">.</span></p>
+      <p>Tees and socks built for the every day, from a small team in Mumbai.</p>
+    </div>
+    <form class="newsletter" onsubmit="event.preventDefault();">
+      <label for="newsletter-email">Get 10% off your first order</label>
+      <div class="newsletter-row">
+        <input id="newsletter-email" type="email" placeholder="you@email.com" required>
+        <button type="submit" class="btn btn-primary">Join</button>
+      </div>
+    </form>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Promer. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="products.html">All Products</a>
+      <a href="products.html?type=tshirt">T-Shirts</a>
+      <a href="products.html?type=socks">Socks</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/common.js"></script>
+<script src="js/products-data.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>
