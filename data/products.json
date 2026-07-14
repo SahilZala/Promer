@@ -1,0 +1,311 @@
+[
+  {
+    "id": "tee-classic-crew",
+    "sku": "PRM-TEE-001",
+    "name": "Classic Crew Tee",
+    "type": "tshirt",
+    "categories": ["bestseller", "essentials"],
+    "shortDescription": "The everyday crew neck, cut for a clean regular fit.",
+    "description": "Our best-selling crew neck tee, built from 240 GSM combed cotton so it holds its shape wash after wash. A regular fit with a reinforced collar that won't sag by the third wear.",
+    "price": 799,
+    "compareAtPrice": 999,
+    "currency": "INR",
+    "colors": [
+      { "name": "Ink Black", "hex": "#17181C" },
+      { "name": "Chalk White", "hex": "#ECEFEA" },
+      { "name": "Signal Orange", "hex": "#FF5A1F" }
+    ],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "material": "100% combed cotton, 240 GSM",
+    "care": ["Machine wash cold with like colors", "Do not bleach", "Tumble dry low", "Warm iron if needed"],
+    "images": [
+      "https://m.media-amazon.com/images/X/bxt1/M/hbxt1xfkBMQVKpG._SL1920_QL80_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/X/bxt1/M/9bxt1x04iDLlLgC._QL75_FMwebp_SX_WIDTH_.png"
+    ],
+    "rating": 4.6,
+    "reviewCount": 312,
+    "stock": 84,
+    "inStock": true,
+    "isNew": false,
+    "isTrending": true,
+    "isFeatured": true,
+    "tags": ["cotton", "crew-neck", "regular-fit"]
+  },
+  {
+    "id": "tee-oversized-drop",
+    "sku": "PRM-TEE-002",
+    "name": "Oversized Drop-Shoulder Tee",
+    "type": "tshirt",
+    "categories": ["new", "streetwear"],
+    "shortDescription": "Boxy silhouette with a dropped shoulder seam.",
+    "description": "A relaxed, boxy tee with a dropped shoulder seam for that off-duty streetwear look. Heavyweight cotton drapes well without feeling stiff, and the extended hem stays tucked or untucked equally well.",
+    "price": 899,
+    "compareAtPrice": null,
+    "currency": "INR",
+    "colors": [
+      { "name": "Ink Black", "hex": "#17181C" },
+      { "name": "Sage", "hex": "#6F8F6B" }
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "material": "100% heavyweight cotton, 260 GSM",
+    "care": ["Machine wash cold, inside out", "Do not bleach", "Line dry recommended"],
+    "images": [
+      "https://m.media-amazon.com/images/X/bxt1/M/hbxt1xfkBMQVKpG._SL1920_QL80_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/X/bxt1/M/9bxt1x04iDLlLgC._QL75_FMwebp_SX_WIDTH_.png"
+    ],
+    "rating": 4.4,
+    "reviewCount": 97,
+    "stock": 41,
+    "inStock": true,
+    "isNew": true,
+    "isTrending": true,
+    "isFeatured": true,
+    "tags": ["cotton", "oversized", "streetwear"]
+  },
+  {
+    "id": "tee-graphic-wave",
+    "sku": "PRM-TEE-003",
+    "name": "Graphic Print Tee — Wave",
+    "type": "tshirt",
+    "categories": ["graphic", "limited"],
+    "shortDescription": "Screen-printed wave graphic on soft-hand cotton.",
+    "description": "A soft-hand screen print that won't crack or peel, laid on our standard regular-fit cotton base. Part of a limited run — once a size sells out it will not be restocked in this print.",
+    "price": 849,
+    "compareAtPrice": null,
+    "currency": "INR",
+    "colors": [
+      { "name": "Chalk White", "hex": "#ECEFEA" },
+      { "name": "Ink Black", "hex": "#17181C" }
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "material": "100% combed cotton, 220 GSM",
+    "care": ["Machine wash cold, inside out", "Do not iron print", "Tumble dry low"],
+    "images": [
+      "https://m.media-amazon.com/images/X/bxt1/M/hbxt1xfkBMQVKpG._SL1920_QL80_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/X/bxt1/M/9bxt1x04iDLlLgC._QL75_FMwebp_SX_WIDTH_.png"
+    ],
+    "rating": 4.7,
+    "reviewCount": 58,
+    "stock": 19,
+    "inStock": true,
+    "isNew": true,
+    "isTrending": false,
+    "isFeatured": false,
+    "tags": ["cotton", "graphic", "limited-run"]
+  },
+  {
+    "id": "tee-henley",
+    "sku": "PRM-TEE-004",
+    "name": "Everyday Henley",
+    "type": "tshirt",
+    "categories": ["essentials"],
+    "shortDescription": "Three-button placket, ribbed collar, all-day comfort.",
+    "description": "A henley for people who find full button-downs like a lot of effort. Three-button placket, ribbed collar and cuffs, and the same 240 GSM cotton as the rest of the tee line.",
+    "price": 949,
+    "compareAtPrice": 1099,
+    "currency": "INR",
+    "colors": [
+      { "name": "Sage", "hex": "#6F8F6B" },
+      { "name": "Ink Black", "hex": "#17181C" }
+    ],
+    "sizes": ["M", "L", "XL", "XXL"],
+    "material": "100% combed cotton, 240 GSM",
+    "care": ["Machine wash cold", "Do not bleach", "Tumble dry low"],
+    "images": [
+      "https://m.media-amazon.com/images/X/bxt1/M/hbxt1xfkBMQVKpG._SL1920_QL80_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/X/bxt1/M/9bxt1x04iDLlLgC._QL75_FMwebp_SX_WIDTH_.png"
+    ],
+    "rating": 4.3,
+    "reviewCount": 41,
+    "stock": 27,
+    "inStock": true,
+    "isNew": false,
+    "isTrending": false,
+    "isFeatured": false,
+    "tags": ["cotton", "henley"]
+  },
+  {
+    "id": "tee-pocket-tee",
+    "sku": "PRM-TEE-005",
+    "name": "Pocket Tee",
+    "type": "tshirt",
+    "categories": ["essentials"],
+    "shortDescription": "Classic crew with a chest pocket, nothing fancy.",
+    "description": "Everything you like about the Classic Crew, plus a chest pocket that actually fits a phone. No logo, no fuss — just a tee that layers well under a jacket or works on its own.",
+    "price": 849,
+    "compareAtPrice": null,
+    "currency": "INR",
+    "colors": [
+      { "name": "Chalk White", "hex": "#ECEFEA" },
+      { "name": "Signal Orange", "hex": "#FF5A1F" }
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "material": "100% combed cotton, 240 GSM",
+    "care": ["Machine wash cold", "Do not bleach", "Tumble dry low"],
+    "images": [
+      "https://m.media-amazon.com/images/X/bxt1/M/hbxt1xfkBMQVKpG._SL1920_QL80_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/X/bxt1/M/9bxt1x04iDLlLgC._QL75_FMwebp_SX_WIDTH_.png"
+    ],
+    "rating": 4.2,
+    "reviewCount": 33,
+    "stock": 52,
+    "inStock": true,
+    "isNew": false,
+    "isTrending": false,
+    "isFeatured": false,
+    "tags": ["cotton", "pocket-tee"]
+  },
+  {
+    "id": "sock-ribbed-crew-3pk",
+    "sku": "PRM-SOK-001",
+    "name": "Ribbed Crew Socks (3-Pack)",
+    "type": "socks",
+    "categories": ["bestseller", "essentials"],
+    "shortDescription": "Reinforced heel and toe, ribbed cuff that stays put.",
+    "description": "Three pairs of our house crew sock, knit with a reinforced heel and toe and a ribbed cuff engineered not to sag. Comes with our sock-match guarantee — lose one, tell us, we send its pair.",
+    "price": 499,
+    "compareAtPrice": 599,
+    "currency": "INR",
+    "colors": [
+      { "name": "Mixed Pack", "hex": "#17181C" }
+    ],
+    "sizes": ["S (UK 4-6)", "M (UK 7-9)", "L (UK 10-12)"],
+    "material": "80% cotton, 15% polyester, 5% elastane",
+    "care": ["Machine wash cold", "Tumble dry low", "Do not bleach"],
+    "images": [
+      "https://m.media-amazon.com/images/X/bxt1/M/hbxt1xfkBMQVKpG._SL1920_QL80_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/X/bxt1/M/9bxt1x04iDLlLgC._QL75_FMwebp_SX_WIDTH_.png"
+    ],
+    "rating": 4.8,
+    "reviewCount": 421,
+    "stock": 130,
+    "inStock": true,
+    "isNew": false,
+    "isTrending": true,
+    "isFeatured": true,
+    "tags": ["cotton", "crew", "3-pack"]
+  },
+  {
+    "id": "sock-ankle-everyday",
+    "sku": "PRM-SOK-002",
+    "name": "Everyday Ankle Socks",
+    "type": "socks",
+    "categories": ["essentials"],
+    "shortDescription": "Low-cut ankle sock for sneakers and running shoes.",
+    "description": "A low ankle cut designed to stay hidden under sneakers, with the same reinforced heel and toe as our crew socks. Breathable knit keeps things cool on longer days on your feet.",
+    "price": 429,
+    "compareAtPrice": null,
+    "currency": "INR",
+    "colors": [
+      { "name": "Chalk White", "hex": "#ECEFEA" },
+      { "name": "Ink Black", "hex": "#17181C" }
+    ],
+    "sizes": ["S (UK 4-6)", "M (UK 7-9)", "L (UK 10-12)"],
+    "material": "75% cotton, 20% polyester, 5% elastane",
+    "care": ["Machine wash cold", "Tumble dry low"],
+    "images": [
+      "https://m.media-amazon.com/images/X/bxt1/M/hbxt1xfkBMQVKpG._SL1920_QL80_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/X/bxt1/M/9bxt1x04iDLlLgC._QL75_FMwebp_SX_WIDTH_.png"
+    ],
+    "rating": 4.5,
+    "reviewCount": 156,
+    "stock": 96,
+    "inStock": true,
+    "isNew": false,
+    "isTrending": false,
+    "isFeatured": false,
+    "tags": ["cotton", "ankle", "sneaker-sock"]
+  },
+  {
+    "id": "sock-terry-crew",
+    "sku": "PRM-SOK-003",
+    "name": "Terry Crew Socks",
+    "type": "socks",
+    "categories": ["comfort"],
+    "shortDescription": "Cushioned terry sole for extra underfoot comfort.",
+    "description": "A terry-looped sole adds cushioning under the ball and heel of the foot, making these the pair you reach for on long walk or gym days. Crew height with a snug, non-slip cuff.",
+    "price": 549,
+    "compareAtPrice": null,
+    "currency": "INR",
+    "colors": [
+      { "name": "Sage", "hex": "#6F8F6B" },
+      { "name": "Ink Black", "hex": "#17181C" }
+    ],
+    "sizes": ["S (UK 4-6)", "M (UK 7-9)", "L (UK 10-12)"],
+    "material": "70% cotton, 25% polyester, 5% elastane",
+    "care": ["Machine wash cold", "Tumble dry low"],
+    "images": [
+      "https://m.media-amazon.com/images/X/bxt1/M/hbxt1xfkBMQVKpG._SL1920_QL80_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/X/bxt1/M/9bxt1x04iDLlLgC._QL75_FMwebp_SX_WIDTH_.png"
+    ],
+    "rating": 4.6,
+    "reviewCount": 88,
+    "stock": 63,
+    "inStock": true,
+    "isNew": false,
+    "isTrending": true,
+    "isFeatured": false,
+    "tags": ["cotton", "cushioned", "crew"]
+  },
+  {
+    "id": "sock-no-show-3pk",
+    "sku": "PRM-SOK-004",
+    "name": "No-Show Socks (3-Pack)",
+    "type": "socks",
+    "categories": ["essentials"],
+    "shortDescription": "Stays below the shoe line, silicone heel grip.",
+    "description": "Cut low enough to disappear under loafers and low-top sneakers, with a silicone heel grip so they don't slide off mid-stride. Sold as a set of three identical pairs.",
+    "price": 459,
+    "compareAtPrice": 549,
+    "currency": "INR",
+    "colors": [
+      { "name": "Mixed Pack", "hex": "#17181C" }
+    ],
+    "sizes": ["S (UK 4-6)", "M (UK 7-9)", "L (UK 10-12)"],
+    "material": "80% cotton, 15% polyester, 5% elastane",
+    "care": ["Machine wash cold", "Tumble dry low"],
+    "images": [
+      "https://m.media-amazon.com/images/X/bxt1/M/hbxt1xfkBMQVKpG._SL1920_QL80_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/X/bxt1/M/9bxt1x04iDLlLgC._QL75_FMwebp_SX_WIDTH_.png"
+    ],
+    "rating": 4.1,
+    "reviewCount": 64,
+    "stock": 71,
+    "inStock": true,
+    "isNew": false,
+    "isTrending": false,
+    "isFeatured": false,
+    "tags": ["cotton", "no-show", "3-pack"]
+  },
+  {
+    "id": "sock-crew-striped",
+    "sku": "PRM-SOK-005",
+    "name": "Striped Crew Socks",
+    "type": "socks",
+    "categories": ["new", "graphic"],
+    "shortDescription": "Bold stripe knit, our most colorful pair yet.",
+    "description": "The same reinforced crew construction as the rest of the sock line, knit with a bold horizontal stripe. A small, deliberate way to add color to an otherwise plain fit.",
+    "price": 529,
+    "compareAtPrice": null,
+    "currency": "INR",
+    "colors": [
+      { "name": "Signal Stripe", "hex": "#FF5A1F" },
+      { "name": "Sun Stripe", "hex": "#FFC93C" }
+    ],
+    "sizes": ["S (UK 4-6)", "M (UK 7-9)", "L (UK 10-12)"],
+    "material": "80% cotton, 15% polyester, 5% elastane",
+    "care": ["Machine wash cold", "Tumble dry low"],
+    "images": [
+      "https://m.media-amazon.com/images/X/bxt1/M/hbxt1xfkBMQVKpG._SL1920_QL80_FMwebp_.jpg",
+      "https://m.media-amazon.com/images/X/bxt1/M/9bxt1x04iDLlLgC._QL75_FMwebp_SX_WIDTH_.png"
+    ],
+    "rating": 4.4,
+    "reviewCount": 22,
+    "stock": 35,
+    "inStock": true,
+    "isNew": true,
+    "isTrending": false,
+    "isFeatured": true,
+    "tags": ["cotton", "striped", "crew"]
+  }
+]
